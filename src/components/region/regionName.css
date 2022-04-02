@@ -1,0 +1,12 @@
+.wraper-card{
+    width:  20rem;
+    margin-top: 10px;
+    /* background-color: rgba(0,0,0,0.3);*/
+} 
+img{
+    width: 10rem;
+    height: 11rem;
+}
+.blak{
+    background-color: rgba(0,0,0,0.3);
+}
