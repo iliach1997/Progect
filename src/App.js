@@ -1,9 +1,10 @@
 
 import { Header } from './components/header';
 
-import { Layout } from './components/Layout';
+import { Layout } from './components/layout';
 
-import { Cartprovider } from './providers/cartProvider';
+
+
 
 import { Routes } from './Routes'
 
@@ -11,14 +12,14 @@ import './App.css';
 
 function App() {
   return (
-    <Cartprovider>
+
 <Layout className="App" size='default'>
-      <Header/> 
-<Routes/>
+  <Header/> 
+  <Routes/>
 
 </Layout>
 
-</Cartprovider>
+
   );
 }
 
