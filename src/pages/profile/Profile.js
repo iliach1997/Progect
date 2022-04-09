@@ -14,7 +14,7 @@ export const Profile=()=>{
             
             <h1>👤Profile fage</h1>
  
-
+            <h1>👤Profile fage</h1>  
 
 
          
