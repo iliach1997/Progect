@@ -1,7 +1,7 @@
 import {lazy,Suspense} from 'react'
 import { Routes as Router, Route  } from "react-router-dom";
 import { Loader } from './atoms';
-import {Layout}from './components/layout'
+import {Layout}from './components/layout/Layout'
 import * as routes from './utils/routePaths'
 import {Login} from './pages/login'
 import Profile from './pages/profile'
