@@ -1,8 +1,6 @@
-
-import {NavLink} from 'react-router-dom'
+import { LeftNavigation } from "./LeftNavigation"
+import { RightNavigation } from "./RightNavigation"
 export const Header=()=>{
-
-
 
     return(
      <header className='bo'>
@@ -14,21 +12,9 @@ export const Header=()=>{
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0"> 
-       <li className="nav-item">
-        <NavLink className="nav-link" to="/georgia">Georgia</NavLink>
-        </li>
-        <li className="nav-item">
-        <NavLink className="nav-link" to="/home">Countries</NavLink>
-        </li>
-      
-       
-      
-      </ul>
-      <form className="d-flex">
-        
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+  <LeftNavigation/>
+  <RightNavigation/>
+     
     </div>
   </div>
 </nav>

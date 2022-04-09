@@ -1,7 +1,5 @@
+import { AuthProvider } from './provaiders/authProvider';
 
-import { Header } from './components/header';
-
-import { Layout } from './components/layout';
 
 
 
@@ -13,11 +11,18 @@ import './App.css';
 function App() {
   return (
 
-<Layout className="App" size='default'>
-  <Header/> 
-  <Routes/>
+<AuthProvider>
 
-</Layout>
+
+
+<Routes/>
+
+
+
+</AuthProvider>
+
+
+
 
 
   );

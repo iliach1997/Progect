@@ -3,8 +3,7 @@ export const RenderGorgia=({data})=>{
     return data.map((country) => {
         return (
   
-        <div style={{ width:" 1000px",
-          height: " 1000px"}}>
+        <div className="wraper-card">
     <img src={country.flags.svg} className="card-img-top" alt={country.name}/>
     <div className="card-body">
       <h5 className="card-title d-flex justify-content-center">{country.name.common}</h5>
