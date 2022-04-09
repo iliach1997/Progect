@@ -7,7 +7,7 @@ import {Login} from './pages/login'
 import Profile from './pages/profile'
 import {Register}from'./pages/register'
 import {NoMatch} from './pages/NoMatch'
-// const Home =lazy(()=>import('./pages/home/'))
+
 import { Home } from './pages/home/Home';
 // const Georgia=lazy(()=>import('./pages/georgia/'))
 import {Georgia} from './pages/georgia/Georgia'
